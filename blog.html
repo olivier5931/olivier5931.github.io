@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Projet Blog</title>
+	<meta name="description" content="A php blog"/>
+	<meta name="keywords" content="php, blog, symfony"/>
+	<meta name="author" content="Portfolio Olivier L"/>
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Playfair+Display">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/main.css"/>
+</head>
+
+<body>
+	<div class="main-overlay js-main-overlay"></div>
+	<section class="cover-project" id="home">
+		<header>
+			<nav class="nav-wrapper">
+				<div class="logo"></div>
+				<ul class="menu">
+					<li><a href="index.html">Accueil</a></li>
+					<li><a href="#images">Images</a></li>
+					<li><a href="https://github.com/olivier5931/blog">Repo Github</a></li>
+				</ul>
+			</nav>
+			<div class="menu-trigger js-menu-trigger"></div>
+		</header>
+		<div class="wrapper_project">
+			<ul id="scene"
+					data-invert-x="false"
+					data-invert-y="false"
+					data-scalar-x="7"
+					data-scalar-y="7"
+					data-friction-x="0.1"
+					data-friction-y="0.1"
+					data-origin-x="0.5"
+					data-origin-y="0.5">
+				<li class="layer projectname" data-depth="0.90">Blog&nbsp;&nbsp;Symfony</li>
+				<li class="layer projecttitle" data-depth="0.50">
+					<p>création d'un blog Symfony 4</p>
+					<p>connexion via Oauth2 avec le composant Symfony HttpClient</p>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="images" id="images">
+		<div class="Modern-Slider">
+
+			<div class="item">
+				<div class="img-fill">
+					<img src="dev_images/blog1.png" alt="image1">
+					<div class="legend"></div>
+					<div class="info">
+						<h3>Page Accueil</h3>
+						<h5>- connexion github, formulaire contact</h5>
+						<h5>- liste des articles + catégories</h5>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="img-fill">
+					<img src="dev_images/blog2.png" alt="image2">
+					<div class="legend"></div>
+					<div class="info">
+						<h3>Page Accueil</h3>
+						<h5>- filtrage des articles par catégories</h5>
+						<h5>- choix de la langue français/anglais</h5>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="img-fill">
+					<img src="dev_images/blog3.png" alt="image3">
+					<div class="legend"></div>
+					<div class="info">
+						<h3>Création article</h3>
+						<h5>- connexion rôle administrateur</h5>
+						<h5>- formulaire nouvel article</h5>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="img-fill">
+					<img src="dev_images/blog4.png" alt="image4">
+					<div class="legend"></div>
+					<div class="info">
+						<h3>Création erreur</h3>
+						<h5>- connexion rôle administrateur</h5>
+						<h5>- formulaire nouvelle erreur</h5>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="img-fill">
+					<img src="dev_images/blog5.png" alt="image5">
+					<div class="legend"></div>
+					<div class="info">
+						<h3>Création / modif. sondage</h3>
+						<h5>- connexion rôle administrateur</h5>
+						<h5>- choix du titre, statut, réponses disponibles</h5>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="img-fill">
+					<img src="dev_images/blog6.png" alt="image6">
+					<div class="legend"></div>
+					<div class="info">
+						<h3>Liste des sondages</h3>
+						<h5>- détails des sondages</h5>
+						<h5>- noms, catégories, statuts..</h5>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="img-fill">
+					<img src="dev_images/blog7.png" alt="image7">
+					<div class="legend"></div>
+					<div class="info">
+						<h3>Vote sondage</h3>
+						<h5>- si l'utilisateur n'a pas encore voté,</h5>
+						<h5>- choix des réponses</h5>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="img-fill">
+					<img src="dev_images/blog8.png" alt="image8">
+					<div class="legend"></div>
+					<div class="info">
+						<h3>Résultats des sondages</h3>
+						<h5>- statistiques du sondage</h5>
+						<h5>- nombre de votes, pourcentage</h5>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="img-fill">
+					<img src="dev_images/blog9.png" alt="image9">
+					<div class="legend"></div>
+					<div class="info">
+						<h3>Panel Admin</h3>
+						<h5>- gestion des entités (CRUD),</h5>
+						<h5>- si connexion en tant qu'administrateur</h5>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="img-fill">
+					<img src="dev_images/blog10.png" alt="image10">
+					<div class="legend"></div>
+					<div class="info">
+						<h3>Panel Admin</h3>
+						<h5>- example liste des sondages,</h5>
+						<h5>- via panel administrateur</h5>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script src="js/masonry.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/project.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Portfolio/Olivier L</title>
+	<meta name="keywords" content="developpeur, symfony, php, react, html, web"/>
+	<meta name="author" content="Portfolio Olivier L"/>
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Playfair+Display">
+	<link rel="stylesheet"
+				href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<div class="main-overlay js-main-overlay"></div>
+	<section class="cover-main" id="home">
+		<header>
+			<nav class="nav-wrapper">
+				<div class="logo"></div>
+				<ul class="menu">
+					<li><a href="#aboutme">A propos de moi</a></li>
+				</ul>
+			</nav>
+			<div class="menu-trigger js-menu-trigger"></div>
+		</header>
+		<div class="wrapper">
+			<ul id="scene"
+					data-invert-x="false"
+					data-invert-y="false"
+					data-scalar-x="7"
+					data-scalar-y="7"
+					data-friction-x="0.1"
+					data-friction-y="0.1"
+					data-origin-x="0.5"
+					data-origin-y="0.5">
+				<li class="layer name" data-depth="0.90">Olivier&nbsp;&nbsp;Looten</li>
+				<li class="layer title" data-depth="0.50">Développeur</li>
+				<li class="layer btn btn-main" data-depth="0.30">
+					<a href="#mywork" class="mywork-btn">Mes projets</a>
+					<a href="#skills" class="skills-btn">Compétences</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="masonry-grid" id="mywork">
+		<div class="canvas-wrap">
+			<div id="canvas" class="gradient">
+				<h2 class="sub-title">Mes projets</h2>
+					<div class="col-lg-10 offset-lg-1">
+
+						<div class="wrapper_mywork">
+							<a href="/dev_images/blog1.png">
+								<img src="/dev_images/blog1.png" class="img-fluid" id="img" alt="image">
+							</a>
+							<h3>Blog Symfony 4</h3>
+							<button type="submit" class="btn btn-primary">
+								<a href="blog.html">voir le projet&rarr;</a>
+							</button>
+						</div>
+
+						<div class="wrapper_mywork">
+							<a href="/dev_images/symreact1.png">
+								<img src="/dev_images/symreact1.png" class="img-fluid" id="img" alt="image">
+							</a>
+							<h3>API Symfony + React</h3>
+							<button type="submit" class="btn btn-primary">
+								<a href="symreact.html">voir le projet&rarr;</a>
+							</button>
+						</div>
+
+					</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="aboutme" id="aboutme">
+		<h2 class="sub-title">A propos de moi</h2>
+			<div class="wrapper_aboutme">
+				<p>Je m'appelle Olivier, résidant sur Toulouse. Je suis un développeur web full-stack, avec une<br />
+					certaine expérience en HTML, CSS, JS & PHP, Symfony.</p>
+				<p>Je pratique également le développement d'applications Web avec React, et dans<br />
+					une moindre mesure sur Angular.</p>
+				<p>Je souhaite me perfectionner afin d'utiliser mes compétences dans le domaine des technologies<br />
+					de l'information et aider à résoudre les défis du monde contemporain.</p>
+			</div>
+	</section>
+
+	<section class="skills" id="skills">
+		<div class="canvas-wrap">
+			<div id="canvas2" class="gradient">
+				<h2 class="sub-title">Compétences</h2>
+					<div class="wrapper_skills">
+						<ul class="skills-bar-container">
+							<li>
+								<div class="progressbar-title">
+									<h3>HTML</h3>
+									<span class="percent" id="html-pourcent"></span>
+								</div>
+								<div class="bar-container">
+									<span class="progressbar progressred" id="progress-html"></span>
+								</div>
+							</li>
+							<li>
+								<div class="progressbar-title">
+									<h3>CSS</h3>
+									<span class="percent" id="css-pourcent"></span>
+								</div>
+								<div class="bar-container">
+									<span class="progressbar progressblue" id="progress-css"></span>
+								</div>
+							</li>
+							<li>
+								<div class="progressbar-title">
+									<h3>JavaScript / jQuery</h3>
+									<span class="percent" id="javascript-pourcent"></span>
+								</div>
+								<div class="bar-container">
+									<span class="progressbar progresspurple" id="progress-javascript"></span>
+								</div>
+							</li>
+							<li>
+								<div class="progressbar-title">
+									<h3>PHP / Symfony / MySql</h3>
+									<span class="percent" id="php-pourcent"></span>
+								</div>
+								<div class="bar-container">
+									<span class="progressbar progressorange" id="progress-php"></span>
+								</div>
+							</li>
+							<li>
+								<div class="progressbar-title">
+									<h3>React</h3>
+									<span class="percent" id="react-pourcent"></span>
+								</div>
+								<div class="bar-container">
+									<span class="progressbar progressgreen" id="progress-react"></span>
+								</div>
+							</li>
+							<li>
+								<div class="progressbar-title">
+									<h3>Java</h3>
+									<span class="percent" id="java-pourcent"></span>
+								</div>
+								<div class="bar-container">
+									<span class="progressbar progressred2" id="progress-java"></span>
+								</div>
+							</li>
+							<li>
+								<div class="progressbar-title">
+									<h3>Git</h3>
+									<span class="percent" id="git-pourcent"></span>
+								</div>
+								<div class="bar-container">
+									<span class="progressbar progressblue2" id="progress-git"></span>
+								</div>
+							</li>
+						</ul>
+					</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="footer">
+		<h2 class="sub-title">Olivier Looten © 2020 Portfolio
+		<h2 class="sub-title"><i class="fa fa-envelope" aria-hidden="true">&nbsp;ol.looten@gmail.com</i></h2>
+		</h2>
+	</section>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script src="js/masonry.js"></script>
+	<script src="js/main.js"></script>
+
+	<script src="js/three.min.js"></script>
+	<!-- Helpers -->
+	<script src="js/projector.js"></script>
+	<script src="js/canvas-renderer.js"></script>
+	<!-- Animated background color -->
+	<script src="js/color.js"></script>
+
+	<script>
+		var scene = document.getElementById('scene');
+		var parallax = new Parallax(scene);
+	</script>
+
+</body>
+</html>
