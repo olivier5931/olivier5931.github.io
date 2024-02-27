@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Portfolio</title>
+  <link rel="icon" type="image/png" href="favicon.ico">
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <meta name="author" content="Portfolio Olivier L"/>
+  <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+  <link rel='stylesheet' href='css/skins/color-1.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css'>
+  <!--style switcher start-->
+  <link rel='stylesheet' href='css/skins/color-1.css' class="alternate-style" title="color-1" disabled>
+  <link rel='stylesheet' href='css/skins/color-2.css' class="alternate-style" title="color-2" disabled>
+  <link rel='stylesheet' href='css/skins/color-3.css' class="alternate-style" title="color-3" disabled>
+  <link rel='stylesheet' href='css/skins/color-4.css' class="alternate-style" title="color-4" disabled>
+  <link rel='stylesheet' href='css/skins/color-5.css' class="alternate-style" title="color-5" disabled>
+  <link rel='stylesheet' href='css/style-switcher.css'>
+  <!--style switcher end-->
+</head>
+<body class="light">
+  <!--main container start-->
+  <div class="main-container">
+    <!--aside start-->
+    <div class="aside">
+      <div class="logo">
+        <a href="#"><span>P</span>ortfolio</a>
+      </div>
+      <div class="nav-toggler">
+        <span></span>
+      </div>
+      <ul class="nav">
+        <li><a href="#home" class="active"><i class="fa fa-home"></i> Accueil</a></li>
+        <li><a href="#about"><i class="fa fa-user"></i> A propos de moi</a></li>
+        <!--<li><a href="#"><i class="fa fa-list"></i> Services</a></li>-->
+        <li><a href="#portfolio"><i class="fa fa-briefcase"></i> Mes projets</a></li>
+        <li><a href="https://github.com/olivier5931"><i class="fa fa-github"></i> Repo Github</a></li>
+        <!--<li><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>-->
+      </ul>
+    </div>
+    <!--aside end-->
+    <!--main content start-->
+    <div class="main-content">
+      <!--home section start-->
+        <section class="home active section" id="home">
+          <div class="container">
+            <div class="row">
+              <div class="home-info padd-15">
+                <h3 class="hello">Bonjour, je m'appelle <span class="name">Olivier</span></h3><br />
+                <h3 class="my-profession">Je suis un <span class="typing">Développeur Full-stack</span></h3>
+                  <p>À l’issue d’une reconversion professionnelle en informatique, je souhaite être force de proposition sur les
+                  projets et besoins des clients.</p>
+                  <p>Mes compétences sont principalement en PHP, Symfony, ainsi que sur Wordpress.</p>
+                  <p>Je pratique également le développement d'applications Web avec React & Node JS, Python.</p>
+              </div>
+              <div class="home-img padd-15">
+                <img src="images/me.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </section>
+      <!--home section end-->
+      <!--about section start-->
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>A propos de moi</h2><br />
+            </div>
+          </div>
+          <div class="row">
+            <div class="about-content padd-15">
+              <div class="row">
+                <div class="personal-info padd-15">
+                  <div class="row">
+                    <div class="info-item padd-15">
+                      <p>Ville : <span>Douai</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Site internet : <span>/</span></p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="buttons padd-15">
+                      <a href="#contact" data-section-index="1" class="btn hire-me">Engagez-moi</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="skills padd-15">
+                  <div class="row">
+                    <div class="skill-item padd-15">
+                      <h5>PHP / Symfony</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 85%;"></div>
+                        <div class="skill-percent">85%</div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>React / NodeJS</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 70%;"></div>
+                        <div class="skill-percent">70%</div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>Python / Django</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 65%;"></div>
+                        <div class="skill-percent">65%</div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>Html / CSS / JavaScript</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 90%;"></div>
+                        <div class="skill-percent">90%</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="education padd-15">
+                  <h3 class="title">Formation</h3>
+                  <div class="row">
+                    <div class="timeline-box padd-15">
+                      <div class="timeline shadow-dark">
+                        <!--timeline item-->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 2019 - 2019
+                          </h3>
+                          <h4 class="timeline-title">BGE, Formation Concepteur Java, niveau II</h4>
+                          <p class="timeline-text">Développement full-stack d’une interface utilisateur web.<br/>
+                            Maquetter une application, développer des composants.<br/>
+                            Concevoir, mettre en place une base de données.<br/>
+                            Développer une application mobile.</p>
+                        </div>
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 2017 - 2018
+                          </h3>
+                          <h4 class="timeline-title">ADRAR, Formation Développeur Web, niveau III</h4>
+                          <p class="timeline-text">Réaliser une interface utilisateur web  statique.<br/>
+                            Créer une base de données.<br/>
+                            Développer les composants d’accès aux données.<br/>
+                            Développer la partie back-end d’une application web.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="experience padd-15">
+                  <h3 class="title">Expériences</h3>
+                  <div class="row">
+                    <div class="timeline-box padd-15">
+                      <div class="timeline shadow-dark">
+                        <!--timeline item-->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 2020 - 2020
+                          </h3>
+                          <h4 class="timeline-title">Développeur web, Paul Boyé, Labarthe-sur-Lèze</h4>
+                          <p class="timeline-text">Développement en Php et Symfony sur l’application de gestion<br/> et
+                            de ventes de textiles.</p>
+                        </div>
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 2019 - 2020
+                          </h3>
+                          <h4 class="timeline-title">Développeur full-stack, Projet personnel, Toulouse</h4>
+                          <p class="timeline-text">Développement de plusieurs projets sur Symfony, Api Platform,<br/> React, Sql, Oauth2..</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--about section end-->
+      <!--portfolio item start-->
+      <section class="portfolio section" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Mes projets</h2>
+            </div>
+          </div>
+          <!--portfolio images project3 start-->
+          <div class="row">
+            <div class="portfolio-heading padd-15">
+              Application (marketplace) de ventes de produits de décoration<br/>
+              Technos utilisées: wordpress, wc-multivendor-marketplace, stripe<br/>
+              Mise en relation des acheteurs particuliers et des vendeurs professionnels
+            </div>
+          </div>
+          <div class="row">
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="dev_images/odecor1.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="dev_images/odecor2.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="dev_images/odecor3.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="dev_images/odecor4.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="dev_images/odecor5.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="dev_images/odecor6.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--portfolio images project3 end-->
+          <!--portfolio images project2 start-->
+          <div class="row">
+            <div class="portfolio-heading padd-15">
+              Application de gestion clients/factures<br/>
+              Technos utilisées: react/webpack encore/axios, symfony4.4/api platform/sql/jwt<br/>
+              Editer/supprimer une facture, statut (annulée, envoyée, payée)
+            </div>
+          </div>
+          <div class="row">
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="dev_images/symreact1.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="dev_images/symreact2.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="dev_images/symreact3.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="dev_images/symreact4.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="dev_images/symreact5.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="dev_images/symreact6.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--portfolio images project2 end-->
+          <!--portfolio images project1 start-->
+          <div class="row">
+            <div class="portfolio-heading padd-15">
+              Blog sur l'informatique et la programmation<br/>
+              Technos utilisées: symfony4.4, sql, oauth2(github), html, css , twig<br/>
+              Ajouter/editer/supprimer un article, un utilisateur, un sondage
+            </div>
+          </div>
+          <div class="row">
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="dev_images/devblog1.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="dev_images/devblog2.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="dev_images/devblog3.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="dev_images/devblog4.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="dev_images/devblog5.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="dev_images/devblog6.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--portfolio images project1 end-->
+        </div>
+      </section>
+      <!--portfolio item end-->
+      <!--contact section start-->
+      <!--<section class="contact section" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Contact</h2>
+            </div>
+          </div>-->
+          <!--contact form start-->
+          <!--<div class="row">
+            <div class="contact-form padd-15">
+              <div class="row">
+                <div class="form-item col-6 padd-15">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Nom">
+                  </div>
+                </div>
+                <div class="form-item col-6 padd-15">
+                  <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-item col-12 padd-15">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Sujet">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-item col-12 padd-15">
+                  <div class="form-group">
+                    <textarea name="" class="form-control" i="" placeholder="Message"></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-item col-12 padd-15">
+                  <div class="form-group">
+                    <button type="submit" class="btn">Envoi Message</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>-->
+          <!--contact form end-->
+        <!--</div>
+      </section>-->
+      <!--contact section end-->
+    </div>
+    <!--main content end-->
+  </div>
+  <!--main container end-->
+  <!--style switcher start-->
+  <div class="style-switcher">
+    <div title="thème" class="style-switcher-toggler s-icon">
+      <i class="fas fa-cog fa-spin"></i>
+    </div>
+    <div title="mode nuit" class="day-night s-icon">
+      <i class="fas"></i>
+    </div>
+    <h4>Couleurs Thème</h4>
+    <div class="colors">
+      <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+      <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+      <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+      <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+      <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+    </div>
+  </div>
+  <!--style switcher end-->
+  <!--js files-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+  <script src='js/main.js'></script>
+  <script src='js/style-witcher.js'></script>
+</body>
+</html>
